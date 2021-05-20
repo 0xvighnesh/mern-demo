@@ -59,3 +59,7 @@ git merge [branch_name]
 
 git pull -u origin master
 #pulls changes from remote repository
+
+
+git branch -D [branch_name]
+#delete branch
