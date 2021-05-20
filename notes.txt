@@ -27,3 +27,23 @@ git commit -m "Commit message" -m "Detailed discription. This is optional"
 git push origin master
 #origin is word standing for location of git repository
 #master is the branch to push to 
+
+
+git remote add origin https://github.com/0xvighnesh/mean-demo.git
+#adding origin
+
+git remote -v
+#list remote repositories
+
+
+git branch
+#list branches
+
+git checkout
+#checkout from current branch
+
+git checkout -b "branch_name"
+#checkout and create new branch by branch_name
+
+git checkout brach_name
+#checkout and move to branch_name branch
