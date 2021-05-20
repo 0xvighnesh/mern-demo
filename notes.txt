@@ -45,5 +45,13 @@ git checkout
 git checkout -b "branch_name"
 #checkout and create new branch by branch_name
 
-git checkout brach_name
+git checkout [brach_name]
 #checkout and move to branch_name branch
+
+
+
+git diff [branch_name]
+#what changes have been made
+
+git merge [branch_name]
+#merges branch with master branch
