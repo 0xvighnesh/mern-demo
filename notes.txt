@@ -1,0 +1,29 @@
+
+
+
+Connecting local machine to remote git server
+
+1# creating ssh key
+ssh-keygem -t rsa -b 4096 -C "email@address.com"
+
+2#upload public key to github interface
+github -> Setting -> SSH and GPG key -> New SSH key -> Add title and paste ssh key
+
+3#adding ssh-key to ssh-agent
+Google the steps (https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssgh-key-and-adding-it-to-the-ssh-agent)
+
+
+
+
+git status
+#tells the status of the files. Are the files tracked? are these files modifed and added in git??
+
+git add
+#adding files to git. git add singlefile OR git add . (all the files in current directory)
+
+git commit -m "Commit message" -m "Detailed discription. This is optional"
+#commiting to local git 
+
+git push origin master
+#origin is word standing for location of git repository
+#master is the branch to push to 
