@@ -70,3 +70,12 @@ git reset
 
 git reset HEAD~1
 #undo last 1 commit
+
+git log
+#lists git commit log
+
+git reset [commit_hash]
+#unstages changes from this commit hash
+
+git reset --hard [commit_hash]
+#completely remove changes from this commit hash
