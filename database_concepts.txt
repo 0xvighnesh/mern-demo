@@ -1,0 +1,29 @@
+
+Tabular(Relational Database) => MongoDB
+Database => Database
+Table => Collection
+Row => Document
+Index => Index
+Join => $lookup
+Foreign Key => Reference
+
+
+mongoDB Documents format => binary json format	(BSON Types)
+
+{
+name: "Beau Carnes",	//String
+title: "Developer & Teacher",	//String
+address: {					//Nested Document
+		address 1: "123 Main Street",
+		city: "Grand Rapids",
+		state: "Michigan",
+		postal_code: "49503"
+		},
+topics: ["MongoDB","Python","JavaScript","Robots"], //Array
+employee_number: 1234,	//Integer
+location: [44,9921, 123.90391]	//Geo-spatial co-ordinates
+}
+
+Ref: https://www.mongodb.com/cloud/atlas
+
+
