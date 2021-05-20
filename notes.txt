@@ -63,3 +63,10 @@ git pull -u origin master
 
 git branch -D [branch_name]
 #delete branch
+
+
+git reset
+#disregards last git add
+
+git reset HEAD~1
+#undo last 1 commit
